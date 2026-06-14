@@ -15,7 +15,7 @@ const app = express();
 const server = http.createServer(app);
 
 app.use(cors({
-  origin: "http://localhost:3000",   // frontend URL
+  origin: "https://foreverweb.netlify.app/",   // frontend URL
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
